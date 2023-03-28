@@ -73,6 +73,8 @@
     <Content Include="default.aspx" />
     <Content Include="module\hospital.aspx" />
     <Content Include="module\moduledashboard.aspx" />
+    <Content Include="opd\opddashboard.aspx" />
+    <Content Include="opd\opdregistration.aspx" />
     <Content Include="support\CSS\bootstrap.css" />
     <Content Include="support\CSS\dataTables.css" />
     <Content Include="support\CSS\font-awesome.css" />
@@ -146,6 +148,20 @@
     </Compile>
     <Compile Include="opd\opd.master.designer.cs">
       <DependentUpon>opd.master</DependentUpon>
+    </Compile>
+    <Compile Include="opd\opddashboard.aspx.cs">
+      <DependentUpon>opddashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="opd\opddashboard.aspx.designer.cs">
+      <DependentUpon>opddashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="opd\opdregistration.aspx.cs">
+      <DependentUpon>opdregistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="opd\opdregistration.aspx.designer.cs">
+      <DependentUpon>opdregistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
