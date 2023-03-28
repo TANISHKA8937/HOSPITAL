@@ -140,11 +140,19 @@
     <Compile Include="module\moduledashboard.aspx.designer.cs">
       <DependentUpon>moduledashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="opd\opd.master.cs">
+      <DependentUpon>opd.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="opd\opd.master.designer.cs">
+      <DependentUpon>opd.master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.Master" />
     <Content Include="module\module.master" />
+    <Content Include="opd\opd.master" />
     <None Include="packages.config" />
     <Content Include="support\fonts\fontawesome-webfont.eot" />
     <Content Include="support\fonts\fontawesome-webfont.ttf" />
@@ -158,9 +166,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="opd\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
